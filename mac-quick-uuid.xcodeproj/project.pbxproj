@@ -47,6 +47,7 @@
 		27D9ADF729A00BE100516BBE /* mac_quick_uuidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_quick_uuidUITests.swift; sourceTree = "<group>"; };
 		27D9ADF929A00BE100516BBE /* mac_quick_uuidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_quick_uuidUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		27D9AE0629A02CB100516BBE /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
+		27D9AE0829A0333A00516BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		27D9ADDA29A00BE000516BBE /* mac-quick-uuid */ = {
 			isa = PBXGroup;
 			children = (
+				27D9AE0829A0333A00516BBE /* Info.plist */,
 				27D9AE0629A02CB100516BBE /* ApplicationMenu.swift */,
 				27D9ADDB29A00BE000516BBE /* mac_quick_uuidApp.swift */,
 				27D9ADDD29A00BE000516BBE /* UuidView.swift */,
@@ -424,8 +426,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mac-quick-uuid/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mac-quick-uuid/Info.plist";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,8 +454,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mac-quick-uuid/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mac-quick-uuid/Info.plist";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
