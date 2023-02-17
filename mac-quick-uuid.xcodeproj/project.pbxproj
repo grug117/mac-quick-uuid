@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		27D9ADDC29A00BE000516BBE /* mac_quick_uuidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADDB29A00BE000516BBE /* mac_quick_uuidApp.swift */; };
-		27D9ADDE29A00BE000516BBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADDD29A00BE000516BBE /* ContentView.swift */; };
+		27D9ADDE29A00BE000516BBE /* UuidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADDD29A00BE000516BBE /* UuidView.swift */; };
 		27D9ADE029A00BE100516BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D9ADDF29A00BE100516BBE /* Assets.xcassets */; };
 		27D9ADE329A00BE100516BBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D9ADE229A00BE100516BBE /* Preview Assets.xcassets */; };
 		27D9ADEE29A00BE100516BBE /* mac_quick_uuidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADED29A00BE100516BBE /* mac_quick_uuidTests.swift */; };
 		27D9ADF829A00BE100516BBE /* mac_quick_uuidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADF729A00BE100516BBE /* mac_quick_uuidUITests.swift */; };
 		27D9ADFA29A00BE100516BBE /* mac_quick_uuidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADF929A00BE100516BBE /* mac_quick_uuidUITestsLaunchTests.swift */; };
+		27D9AE0729A02CB100516BBE /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AE0629A02CB100516BBE /* ApplicationMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		27D9ADD829A00BE000516BBE /* mac-quick-uuid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-quick-uuid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9ADDB29A00BE000516BBE /* mac_quick_uuidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_quick_uuidApp.swift; sourceTree = "<group>"; };
-		27D9ADDD29A00BE000516BBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27D9ADDD29A00BE000516BBE /* UuidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UuidView.swift; sourceTree = "<group>"; };
 		27D9ADDF29A00BE100516BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D9ADE229A00BE100516BBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27D9ADE429A00BE100516BBE /* mac_quick_uuid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mac_quick_uuid.entitlements; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		27D9ADF329A00BE100516BBE /* mac-quick-uuidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-quick-uuidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D9ADF729A00BE100516BBE /* mac_quick_uuidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_quick_uuidUITests.swift; sourceTree = "<group>"; };
 		27D9ADF929A00BE100516BBE /* mac_quick_uuidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_quick_uuidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27D9AE0629A02CB100516BBE /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,9 @@
 		27D9ADDA29A00BE000516BBE /* mac-quick-uuid */ = {
 			isa = PBXGroup;
 			children = (
+				27D9AE0629A02CB100516BBE /* ApplicationMenu.swift */,
 				27D9ADDB29A00BE000516BBE /* mac_quick_uuidApp.swift */,
-				27D9ADDD29A00BE000516BBE /* ContentView.swift */,
+				27D9ADDD29A00BE000516BBE /* UuidView.swift */,
 				27D9ADDF29A00BE100516BBE /* Assets.xcassets */,
 				27D9ADE429A00BE100516BBE /* mac_quick_uuid.entitlements */,
 				27D9ADE129A00BE100516BBE /* Preview Content */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D9ADDE29A00BE000516BBE /* ContentView.swift in Sources */,
+				27D9ADDE29A00BE000516BBE /* UuidView.swift in Sources */,
+				27D9AE0729A02CB100516BBE /* ApplicationMenu.swift in Sources */,
 				27D9ADDC29A00BE000516BBE /* mac_quick_uuidApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mac-quick-uuid/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mac-quick-uuid/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
