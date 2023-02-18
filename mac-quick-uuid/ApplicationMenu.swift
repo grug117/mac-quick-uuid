@@ -22,11 +22,6 @@ class ApplicationMenu: NSObject {
         
         menu.addItem(customMenuItem)
         
-        // about
-        let aboutMenuItem = NSMenuItem(title: "About", action: #selector(about), keyEquivalent: "")
-        aboutMenuItem.target = self
-        menu.addItem(aboutMenuItem)
-        
         // github
         let gitHubMenuItem = NSMenuItem(title: "github", action: #selector(github), keyEquivalent: "")
         gitHubMenuItem.target = self
@@ -38,10 +33,6 @@ class ApplicationMenu: NSObject {
         menu.addItem(quitMenuItem)
         
         return menu
-    }
-    
-    @objc func about(sender: NSMenuItem) {
-        NSApp.orderFrontStandardAboutPanel(sender)
     }
     
     @objc func github(sender: NSMenuItem) {
