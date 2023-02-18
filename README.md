@@ -4,12 +4,11 @@ Simple mac menu bar app to generate and copy UUIDs quickly and effenitently. no 
 
 <img width="430" alt="Screenshot 2023-02-17 at 22 40 11" src="https://user-images.githubusercontent.com/21131171/219811028-da0b1923-0923-43a0-8915-61937d06b658.png">
 
-## Requirements
-- XCode
+## Install
 
-## Install/Build
-Not yet available as a downloadable image or from app store, so requires building from source
+Download from `Releases`
 
+## Build
 ```
 git clone git@github.com:grug117/mac-quick-uuid.git
 cd mac-quick-uuid
