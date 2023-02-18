@@ -11,9 +11,6 @@
 		27D9ADDE29A00BE000516BBE /* UuidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADDD29A00BE000516BBE /* UuidView.swift */; };
 		27D9ADE029A00BE100516BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D9ADDF29A00BE100516BBE /* Assets.xcassets */; };
 		27D9ADE329A00BE100516BBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D9ADE229A00BE100516BBE /* Preview Assets.xcassets */; };
-		27D9ADEE29A00BE100516BBE /* mac_quick_uuidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADED29A00BE100516BBE /* mac_quick_uuidTests.swift */; };
-		27D9ADF829A00BE100516BBE /* mac_quick_uuidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADF729A00BE100516BBE /* mac_quick_uuidUITests.swift */; };
-		27D9ADFA29A00BE100516BBE /* mac_quick_uuidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9ADF929A00BE100516BBE /* mac_quick_uuidUITestsLaunchTests.swift */; };
 		27D9AE0729A02CB100516BBE /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9AE0629A02CB100516BBE /* ApplicationMenu.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,10 +39,7 @@
 		27D9ADE229A00BE100516BBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27D9ADE429A00BE100516BBE /* mac_quick_uuid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mac_quick_uuid.entitlements; sourceTree = "<group>"; };
 		27D9ADE929A00BE100516BBE /* mac-quick-uuidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-quick-uuidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27D9ADED29A00BE100516BBE /* mac_quick_uuidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_quick_uuidTests.swift; sourceTree = "<group>"; };
 		27D9ADF329A00BE100516BBE /* mac-quick-uuidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-quick-uuidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27D9ADF729A00BE100516BBE /* mac_quick_uuidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_quick_uuidUITests.swift; sourceTree = "<group>"; };
-		27D9ADF929A00BE100516BBE /* mac_quick_uuidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_quick_uuidUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		27D9AE0629A02CB100516BBE /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
 		27D9AE0829A0333A00516BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				27D9ADDA29A00BE000516BBE /* mac-quick-uuid */,
-				27D9ADEC29A00BE100516BBE /* mac-quick-uuidTests */,
-				27D9ADF629A00BE100516BBE /* mac-quick-uuidUITests */,
 				27D9ADD929A00BE000516BBE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,23 +107,6 @@
 				27D9ADE229A00BE100516BBE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		27D9ADEC29A00BE100516BBE /* mac-quick-uuidTests */ = {
-			isa = PBXGroup;
-			children = (
-				27D9ADED29A00BE100516BBE /* mac_quick_uuidTests.swift */,
-			);
-			path = "mac-quick-uuidTests";
-			sourceTree = "<group>";
-		};
-		27D9ADF629A00BE100516BBE /* mac-quick-uuidUITests */ = {
-			isa = PBXGroup;
-			children = (
-				27D9ADF729A00BE100516BBE /* mac_quick_uuidUITests.swift */,
-				27D9ADF929A00BE100516BBE /* mac_quick_uuidUITestsLaunchTests.swift */,
-			);
-			path = "mac-quick-uuidUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D9ADEE29A00BE100516BBE /* mac_quick_uuidTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D9ADF829A00BE100516BBE /* mac_quick_uuidUITests.swift in Sources */,
-				27D9ADFA29A00BE100516BBE /* mac_quick_uuidUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
